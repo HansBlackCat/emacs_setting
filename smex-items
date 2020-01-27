@@ -1,0 +1,23 @@
+
+;; ----- smex-history -----
+(
+ package-list-packages
+ package-install
+ set-variable
+ list-packages
+ company-mode
+ cd
+ 5x5
+)
+
+;; ----- smex-data -----
+(
+ (cd . 2)
+ (package-install . 3)
+ (list-packages . 3)
+ (company-mode . 2)
+ (set-variable . 1)
+ (rtags-find-symbol-at-point . 1)
+ (rtags-install . 1)
+ (package-list-packages . 1)
+)

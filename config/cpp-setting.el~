@@ -1,0 +1,5 @@
+;; rtags
+;; https://github.com/Andersbakken/rtags
+(unless (package-installed-p 'rtags)
+  (package-install 'rtags))
+
